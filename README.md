@@ -1,2 +1,4 @@
 # hackUPC-Questodo
-Our hackUPC project 2016
+
+# Branca del programador de gràfics
+pantalla de nou treball i cues TODO, DOING, DONE
