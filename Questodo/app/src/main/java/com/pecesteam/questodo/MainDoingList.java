@@ -1,5 +1,6 @@
 package com.pecesteam.questodo;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -11,7 +12,7 @@ import android.widget.Button;
 /**
  * Created by ARNAU on 08/10/2016.
  */
-public class MainDoingList extends AppCompatActivity {
+public class MainDoingList extends Activity {
 
     Button todoButton = null;
     Button doneButton = null;
@@ -40,12 +41,12 @@ public class MainDoingList extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        /*backButton.setOnClickListener(new View.OnClickListener(){
+        backButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(v.getContext(), MainQuestodo.class);
                 startActivity(i);
             }
-        });*/
+        });
     }
 }

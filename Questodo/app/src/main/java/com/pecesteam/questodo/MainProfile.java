@@ -4,42 +4,41 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
 /**
  * Created by ARNAU on 08/10/2016.
  */
-public class MainTodoList extends Activity {
+public class MainProfile extends Activity{
 
-    Button toDoingButton = null;
-    Button backButton = null;
+    Button logoButton = null;
+    Button archiButton = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_todo_list);
+        setContentView(R.layout.activity_profile);
 
-        toDoingButton = (Button) findViewById(R.id.doingList);
-        backButton = (Button) findViewById(R.id.backButton);
-        toDoingButton.setOnClickListener(new View.OnClickListener(){
+        logoButton = (Button) findViewById(R.id.backButton);
+        archiButton = (Button) findViewById(R.id.createProject);
 
+        archiButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(v.getContext(), MainDoingList.class);
+                Intent i = new Intent(v.getContext(), MainArchivements.class);
                 startActivity(i);
             }
         });
 
-        backButton.setOnClickListener(new View.OnClickListener(){
+        logoButton.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(v.getContext(), MainQuestodo.class);
                 startActivity(i);
             }
         });
-    }
 
+    }
 }

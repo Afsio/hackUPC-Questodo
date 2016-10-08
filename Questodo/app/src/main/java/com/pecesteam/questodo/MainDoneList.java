@@ -1,5 +1,6 @@
 package com.pecesteam.questodo;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -11,7 +12,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 
-public class MainDoneList extends AppCompatActivity {
+public class MainDoneList extends Activity {
 
     Button backButton = null;
     Button doingButton = null;
@@ -33,10 +34,10 @@ public class MainDoneList extends AppCompatActivity {
         });
 
         backButton.setOnClickListener(new View.OnClickListener(){
-
             @Override
             public void onClick(View v) {
-                //TODO: return to MainMenu
+                Intent i = new Intent(v.getContext(), MainQuestodo.class);
+                startActivity(i);
             }
         });
 
