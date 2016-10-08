@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/newProjectBanner"
-        android:text="New Project"
+        android:text="New Task"
         android:padding="10sp"
         android:textSize="40sp"
         android:background="#000000"
@@ -24,9 +24,9 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:inputType="textPersonName"
-        android:text="Project Name"
+        android:text="Task Name"
         android:ems="10"
-        android:id="@+id/editName"
+        android:id="@+id/taskName"
         android:layout_gravity="center_horizontal"
         android:layout_weight="4"
         android:allowUndo="true"
@@ -40,9 +40,9 @@
         android:background="@color/light2"
         android:layout_height="0dp"
         android:inputType="textPersonName"
-        android:text="Project Type"
+        android:text="Task Type"
         android:ems="10"
-        android:id="@+id/editType"
+        android:id="@+id/taskType"
         android:layout_gravity="center_horizontal"
         android:layout_weight="4" />
 
@@ -61,7 +61,7 @@
         android:layout_weight="14"
         android:text="Description"
         android:ems="10"
-        android:id="@+id/description"
+        android:id="@+id/taskDesc"
         android:layout_gravity="center_horizontal" />
 
     <Space
@@ -78,7 +78,7 @@
         <Button
             android:layout_weight="1"
             android:layout_width="0dp"
-            android:id="@+id/backButtonNP"
+            android:id="@+id/backButtonNT"
             android:layout_height="match_parent"
             android:background="@mipmap/arrow2"
             android:layout_marginBottom="10dp"
@@ -90,7 +90,7 @@
             android:layout_weight="2"
             android:layout_width="0dp"
             android:layout_margin="10sp"
-            android:id="@+id/createProject"
+            android:id="@+id/createTask"
             android:layout_height="match_parent"
             android:background="@mipmap/accept"/>
 
@@ -98,4 +98,3 @@
     </LinearLayout>
 
 </LinearLayout>
-

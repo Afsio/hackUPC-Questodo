@@ -1,6 +1,70 @@
 [
     {
+        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\back.png",
+        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\src\\main\\res\\mipmap-hdpi\\back.png"
+    },
+    {
+        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\achivement1.png",
+        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\src\\main\\res\\mipmap-hdpi\\achivement1.png"
+    },
+    {
+        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\back2.png",
+        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\src\\main\\res\\mipmap-hdpi\\back2.png"
+    },
+    {
+        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\achivement100.png",
+        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\src\\main\\res\\mipmap-hdpi\\achivement100.png"
+    },
+    {
+        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\achivement50.png",
+        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\src\\main\\res\\mipmap-hdpi\\achivement50.png"
+    },
+    {
+        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\done.png",
+        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\src\\main\\res\\mipmap-hdpi\\done.png"
+    },
+    {
+        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\background.jpg",
+        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\src\\main\\res\\mipmap-hdpi\\background.jpg"
+    },
+    {
+        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\accept.png",
+        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\src\\main\\res\\mipmap-hdpi\\accept.png"
+    },
+    {
+        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\questodo.png",
+        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\src\\main\\res\\mipmap-hdpi\\questodo.png"
+    },
+    {
         "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\ic_launcher.png",
         "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\add.png",
+        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\src\\main\\res\\mipmap-hdpi\\add.png"
+    },
+    {
+        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\smiley.png",
+        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\src\\main\\res\\mipmap-hdpi\\smiley.png"
+    },
+    {
+        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\edit.png",
+        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\src\\main\\res\\mipmap-hdpi\\edit.png"
+    },
+    {
+        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\arrow.png",
+        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\src\\main\\res\\mipmap-hdpi\\arrow.png"
+    },
+    {
+        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\arrow2.png",
+        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\src\\main\\res\\mipmap-hdpi\\arrow2.png"
+    },
+    {
+        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\doing.png",
+        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\src\\main\\res\\mipmap-hdpi\\doing.png"
+    },
+    {
+        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4\\cup.png",
+        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\src\\main\\res\\mipmap-hdpi\\cup.png"
     }
 ]

@@ -24,12 +24,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.pecesteam.questodo.MainTodoList" />
-        <activity android:name="com.pecesteam.questodo.MainDoingList" />
-        <activity android:name="com.pecesteam.questodo.MainNewProject" />
-        <activity android:name="com.pecesteam.questodo.MainDoneList" />
-        <activity android:name="com.pecesteam.questodo.MainProfile" />
-        <activity android:name="com.pecesteam.questodo.MainAchivements" />
+        <activity
+            android:name="com.pecesteam.questodo.MainTodoList"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.pecesteam.questodo.MainDoingList"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.pecesteam.questodo.MainNewProject"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.pecesteam.questodo.MainDoneList"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.pecesteam.questodo.MainProfile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.pecesteam.questodo.MainAchivements"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.pecesteam.questodo.MainNewTask"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

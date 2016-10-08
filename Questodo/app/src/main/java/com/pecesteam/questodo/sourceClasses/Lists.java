@@ -23,9 +23,9 @@ public class Lists {
 		System.out.println("Insert the description of the task: ");
 		String desc= read.nextLine();
 		
-		Tasks miau=new Tasks(name, desc);
+		//Tasks miau=new Tasks(name, desc);
 		
-		ToDo.add(miau);
+		//ToDo.add(miau);
 	}
 	
 	public void addToDoing(String nameOfTask){

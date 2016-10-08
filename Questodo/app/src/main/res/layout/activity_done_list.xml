@@ -4,13 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="36"
-    android:background="#441111">
+    android:background="@mipmap/background">
 
     <TextView
         android:text="null"
         android:id="@+id/projectName"
-        android:textColor="#999900"
-        android:textSize="40sp"
+        android:textSize="50dp"
+        android:textColor="#502d16"
+        android:textStyle="italic|bold"
         android:textAlignment="center"
         android:padding="10sp"
         android:layout_width="match_parent"
@@ -19,19 +20,27 @@
 
     <LinearLayout
         android:orientation="horizontal"
-        android:weightSum="4"
+        android:weightSum="5"
         android:layout_weight="6"
         android:layout_width="match_parent"
         android:layout_height="0dp">
 
         <TextView
-            android:layout_weight="3"
+            android:layout_weight="4"
             android:layout_margin="20dp"
             android:text="DONE LIST"
-            android:textSize="30sp"
-            android:textColor="#999999"
+            android:textColor="#c8572825"
+            android:textSize="30dp"
+            android:textStyle="bold"
             android:layout_width="0dp"
             android:layout_height="match_parent" />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@mipmap/doing"/>
 
     </LinearLayout>
 
@@ -40,7 +49,7 @@
         android:layout_height="0dp"
         android:layout_marginLeft="10sp"
         android:layout_marginRight="10sp"
-        android:background="#999999"
+        android:background="@color/light2"
         android:id="@+id/listView"
         android:layout_gravity="center_horizontal"
         android:layout_weight="18" />
@@ -55,19 +64,20 @@
             android:layout_weight="1"
             android:layout_width="0dp"
             android:id="@+id/doingListDnL"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="@mipmap/arrow2"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"/>
 
         <Button
             android:layout_weight="2"
             android:layout_width="0dp"
             android:layout_margin="10sp"
             android:id="@+id/backButtonDnL"
-            android:layout_height="match_parent" />
-
-        <Space
-            android:layout_weight="1"
-            android:layout_width="0dp"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="@mipmap/accept"/>
 
 
     </LinearLayout>

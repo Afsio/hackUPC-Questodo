@@ -18,12 +18,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainTodoList"/>
-        <activity android:name=".MainDoingList"/>
-        <activity android:name=".MainNewProject"/>
-        <activity android:name=".MainDoneList"/>
-        <activity android:name=".MainProfile"/>
-        <activity android:name=".MainAchivements"/>
+        <activity android:name=".MainTodoList"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".MainDoingList"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".MainNewProject"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".MainDoneList"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".MainProfile"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".MainAchivements"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".MainNewTask"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>

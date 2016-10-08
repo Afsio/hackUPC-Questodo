@@ -4,13 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="36"
-    android:background="#441111">
+    android:background="@mipmap/background">
 
     <TextView
         android:text="null"
-        android:id="@+id/projectName"
-        android:textColor="#999900"
-        android:textSize="40sp"
+        android:id="@+id/projectNameTDL"
+        android:textSize="50dp"
+        android:textColor="#502d16"
+        android:textStyle="italic|bold"
         android:textAlignment="center"
         android:padding="10sp"
         android:layout_width="match_parent"
@@ -19,23 +20,25 @@
 
     <LinearLayout
         android:orientation="horizontal"
-        android:weightSum="4"
+        android:weightSum="5"
         android:layout_weight="6"
         android:layout_width="match_parent"
         android:layout_height="0dp">
 
         <TextView
-            android:layout_weight="3"
+            android:layout_weight="4"
             android:layout_margin="20dp"
             android:text="TO DO LIST"
-            android:textSize="30sp"
-            android:textColor="#999999"
+            android:textColor="#c8572825"
+            android:textSize="30dp"
+            android:textStyle="bold"
             android:layout_width="0dp"
             android:layout_height="match_parent" />
 
         <Button
             android:layout_weight="1"
-            android:text="add"
+            android:id="@+id/newTaskTDL"
+            android:background="@mipmap/add"
             android:layout_margin="20dp"
             android:layout_width="0dp"
             android:layout_height="match_parent" />
@@ -47,8 +50,8 @@
         android:layout_height="0dp"
         android:layout_marginLeft="10sp"
         android:layout_marginRight="10sp"
-        android:background="#999999"
-        android:id="@+id/listView"
+        android:background="@color/light2"
+        android:id="@+id/todoListList"
         android:layout_gravity="center_horizontal"
         android:layout_weight="18" />
 
@@ -68,13 +71,19 @@
             android:layout_width="0dp"
             android:layout_margin="10sp"
             android:id="@+id/backButtonTDL"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="@mipmap/accept"/>
 
         <Button
             android:layout_weight="1"
             android:layout_width="0dp"
             android:id="@+id/doingListTDL"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="@mipmap/arrow"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"/>
 
 
     </LinearLayout>
