@@ -28,20 +28,20 @@
         "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
         "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_menu_item.xml"
+        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
         "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
         "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
         "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
@@ -60,16 +60,16 @@
         "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_tab_icon.xml"
+        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
         "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
-        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
         "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
