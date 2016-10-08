@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.pecesteam.questodo.MainQuestodo"
-    tools:showIn="@layout/activity_main_questodo">
+    tools:showIn="@layout/activity_quests_questodo">
 
     <TextView
         android:layout_width="wrap_content"

@@ -2362,7 +2362,7 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f040016;
         public static final int abc_search_view=0x7f040017;
         public static final int abc_select_dialog_material=0x7f040018;
-        public static final int activity_main_questodo=0x7f040019;
+        public static final int activity_quests_questodo =0x7f040019;
         public static final int content_main_questodo=0x7f04001a;
         public static final int design_layout_snackbar=0x7f04001b;
         public static final int design_layout_snackbar_include=0x7f04001c;
