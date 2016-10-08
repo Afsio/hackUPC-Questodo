@@ -2,6 +2,7 @@ package com.pecesteam.questodo;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -82,7 +83,18 @@ public class DatabaseHandler extends SQLiteOpenHelper{
         db.insert(TABLE_USER, null, values);
         db.close();
     }
-    public Profile getUser() {}
+    public Profile getUser() {
+        SQLiteDatabase db = this.getReadableDatabase();
+
+        Cursor cursor = db.query(TABLE_USER, new String[] {KEY_NAME, KEY_LEVEL },
+                KEY_NAME + "=?", new String[] {}, null, null, null, null);
+        if (cursor != null)
+            cursor.moveToFirst();
+
+        Profile user = new Profile()
+        // return contact
+        return contact;
+    }
     public int updateUser(Profile user) {}
     public void deleteUser(Profile user) {}
 }
