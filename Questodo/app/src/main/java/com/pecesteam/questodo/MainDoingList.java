@@ -9,26 +9,32 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 
-public class MainQuestodo extends AppCompatActivity {
+public class MainDoingList extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_questodo);
+        setContentView(R.layout.activity_doing_list);
 
 
-        final Button button = (Button) findViewById(R.id.buttonAddProj);
+        final Button button = (Button) findViewById(R.id.todoListDngL);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent i = new Intent(v.getContext(), MainNewProject.class);
+                Intent i = new Intent(v.getContext(), MainTodoList.class);
                 startActivity(i);
             }
         });
-
-        final Button button2 = (Button) findViewById(R.id.profileQu);
+        final Button button2 = (Button) findViewById(R.id.doneListDngL);
         button2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent i = new Intent(v.getContext(), MainProfile.class);
+                Intent i = new Intent(v.getContext(), MainDoneList.class);
+                startActivity(i);
+            }
+        });
+        final Button button3 = (Button) findViewById(R.id.backButtonDngL);
+        button3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent i = new Intent(v.getContext(), MainQuestodo.class);
                 startActivity(i);
             }
         });

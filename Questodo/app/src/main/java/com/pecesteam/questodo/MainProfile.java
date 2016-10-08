@@ -9,26 +9,26 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 
-public class MainQuestodo extends AppCompatActivity {
+public class MainProfile extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_questodo);
+        setContentView(R.layout.activity_profile);
 
 
-        final Button button = (Button) findViewById(R.id.buttonAddProj);
+        final Button button = (Button) findViewById(R.id.archiButtonPr);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent i = new Intent(v.getContext(), MainNewProject.class);
+                Intent i = new Intent(v.getContext(), MainArchivements.class);
                 startActivity(i);
             }
         });
 
-        final Button button2 = (Button) findViewById(R.id.profileQu);
+        final Button button2 = (Button) findViewById(R.id.backButtonPr);
         button2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent i = new Intent(v.getContext(), MainProfile.class);
+                Intent i = new Intent(v.getContext(), MainQuestodo.class);
                 startActivity(i);
             }
         });

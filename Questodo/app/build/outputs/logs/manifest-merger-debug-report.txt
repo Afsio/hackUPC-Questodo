@@ -1,6 +1,10 @@
 -- Merging decision tree log ---
 manifest
+<<<<<<< HEAD
 ADDED from /home/carlos/Escritorio/HackUPC/hackUPC-Questodo/Questodo/app/src/main/AndroidManifest.xml:2:1-23:12
+=======
+ADDED from C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\src\main\AndroidManifest.xml:2:1-29:12
+>>>>>>> grafic-banana
 	package
 		ADDED from /home/carlos/Escritorio/HackUPC/hackUPC-Questodo/Questodo/app/src/main/AndroidManifest.xml:3:5-37
 		INJECTED from /home/carlos/Escritorio/HackUPC/hackUPC-Questodo/Questodo/app/src/main/AndroidManifest.xml
@@ -14,6 +18,7 @@ ADDED from /home/carlos/Escritorio/HackUPC/hackUPC-Questodo/Questodo/app/src/mai
 		INJECTED from /home/carlos/Escritorio/HackUPC/hackUPC-Questodo/Questodo/app/src/main/AndroidManifest.xml
 		INJECTED from /home/carlos/Escritorio/HackUPC/hackUPC-Questodo/Questodo/app/src/main/AndroidManifest.xml
 application
+<<<<<<< HEAD
 ADDED from /home/carlos/Escritorio/HackUPC/hackUPC-Questodo/Questodo/app/src/main/AndroidManifest.xml:5:5-21:19
 MERGED from [com.android.support:appcompat-v7:23.1.1] /home/carlos/Escritorio/HackUPC/hackUPC-Questodo/Questodo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.1] /home/carlos/Escritorio/HackUPC/hackUPC-Questodo/Questodo/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
@@ -22,6 +27,16 @@ MERGED from [com.android.support:appcompat-v7:23.1.1] /home/carlos/Escritorio/Ha
 MERGED from [com.android.support:support-v4:23.1.1] /home/carlos/Escritorio/HackUPC/hackUPC-Questodo/Questodo/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.1] /home/carlos/Escritorio/HackUPC/hackUPC-Questodo/Questodo/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.1] /home/carlos/Escritorio/HackUPC/hackUPC-Questodo/Questodo/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
+=======
+ADDED from C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\src\main\AndroidManifest.xml:5:5-27:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.1] C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+>>>>>>> grafic-banana
 	android:label
 		ADDED from /home/carlos/Escritorio/HackUPC/hackUPC-Questodo/Questodo/app/src/main/AndroidManifest.xml:8:9-41
 	android:supportsRtl
@@ -49,7 +64,35 @@ ADDED from /home/carlos/Escritorio/HackUPC/hackUPC-Questodo/Questodo/app/src/mai
 category#android.intent.category.LAUNCHER
 ADDED from /home/carlos/Escritorio/HackUPC/hackUPC-Questodo/Questodo/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
+<<<<<<< HEAD
 		ADDED from /home/carlos/Escritorio/HackUPC/hackUPC-Questodo/Questodo/app/src/main/AndroidManifest.xml:18:27-74
+=======
+		ADDED from C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.pecesteam.questodo.MainTodoList
+ADDED from C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\src\main\AndroidManifest.xml:21:9-49
+	android:name
+		ADDED from C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\src\main\AndroidManifest.xml:21:19-47
+activity#com.pecesteam.questodo.MainDoingList
+ADDED from C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\src\main\AndroidManifest.xml:22:9-50
+	android:name
+		ADDED from C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\src\main\AndroidManifest.xml:22:19-48
+activity#com.pecesteam.questodo.MainNewProject
+ADDED from C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\src\main\AndroidManifest.xml:23:9-51
+	android:name
+		ADDED from C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\src\main\AndroidManifest.xml:23:19-49
+activity#com.pecesteam.questodo.MainDoneList
+ADDED from C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\src\main\AndroidManifest.xml:24:9-49
+	android:name
+		ADDED from C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\src\main\AndroidManifest.xml:24:19-47
+activity#com.pecesteam.questodo.MainProfile
+ADDED from C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\src\main\AndroidManifest.xml:25:9-48
+	android:name
+		ADDED from C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\src\main\AndroidManifest.xml:25:19-46
+activity#com.pecesteam.questodo.MainArchivements
+ADDED from C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\src\main\AndroidManifest.xml:26:9-53
+	android:name
+		ADDED from C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\src\main\AndroidManifest.xml:26:19-51
+>>>>>>> grafic-banana
 uses-sdk
 INJECTED from /home/carlos/Escritorio/HackUPC/hackUPC-Questodo/Questodo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.1.1] /home/carlos/Escritorio/HackUPC/hackUPC-Questodo/Questodo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
