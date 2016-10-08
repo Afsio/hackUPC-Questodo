@@ -1,44 +1,58 @@
 package com.pecesteam.questodo;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.Button;
 
-/**
- * Created by ARNAU on 08/10/2016.
- */
-public class MainProfile extends Activity{
-
-    Button logoButton = null;
-    Button archiButton = null;
+public class MainProfile extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
-        logoButton = (Button) findViewById(R.id.backButton);
-        archiButton = (Button) findViewById(R.id.createProject);
 
-        archiButton.setOnClickListener(new View.OnClickListener() {
-            @Override
+        final Button button = (Button) findViewById(R.id.archiButtonPr);
+        button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent i = new Intent(v.getContext(), MainArchivements.class);
                 startActivity(i);
             }
         });
 
-        logoButton.setOnClickListener(new View.OnClickListener() {
-
-            @Override
+        final Button button2 = (Button) findViewById(R.id.backButtonPr);
+        button2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent i = new Intent(v.getContext(), MainQuestodo.class);
                 startActivity(i);
             }
         });
+    }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_main_questodo, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }

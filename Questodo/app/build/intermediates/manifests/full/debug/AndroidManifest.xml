@@ -14,12 +14,21 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.pecesteam.questodo.MainQuestodo" >
+        <activity
+            android:name="com.pecesteam.questodo.MainQuestodo"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name="com.pecesteam.questodo.MainTodoList" />
         <activity android:name="com.pecesteam.questodo.MainDoingList" />
         <activity android:name="com.pecesteam.questodo.MainNewProject" />
         <activity android:name="com.pecesteam.questodo.MainDoneList" />
+        <activity android:name="com.pecesteam.questodo.MainProfile" />
         <activity android:name="com.pecesteam.questodo.MainArchivements" />
     </application>
 

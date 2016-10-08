@@ -1,52 +1,64 @@
 package com.pecesteam.questodo;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.Button;
 
-/**
- * Created by ARNAU on 08/10/2016.
- */
-public class MainDoingList extends Activity {
-
-    Button todoButton = null;
-    Button doneButton = null;
-    Button backButton = null;
+public class MainDoingList extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_doing_list);
 
-        todoButton = (Button) findViewById(R.id.todoList);
-        doneButton = (Button) findViewById(R.id.doneList);
-        backButton = (Button) findViewById(R.id.backButton);
 
-        todoButton.setOnClickListener(new View.OnClickListener() {
-            @Override
+        final Button button = (Button) findViewById(R.id.todoListDngL);
+        button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent i = new Intent(v.getContext(), MainTodoList.class);
                 startActivity(i);
             }
         });
-        doneButton.setOnClickListener(new View.OnClickListener(){
-            @Override
+        final Button button2 = (Button) findViewById(R.id.doneListDngL);
+        button2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent i = new Intent(v.getContext(), MainDoneList.class);
                 startActivity(i);
             }
         });
-        backButton.setOnClickListener(new View.OnClickListener(){
-            @Override
+        final Button button3 = (Button) findViewById(R.id.backButtonDngL);
+        button3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent i = new Intent(v.getContext(), MainQuestodo.class);
                 startActivity(i);
             }
         });
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_main_questodo, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }
