@@ -84,6 +84,10 @@
         "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
+        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_todo_list.xml",
+        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\src\\main\\res\\layout\\activity_todo_list.xml"
+    },
+    {
         "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
@@ -96,6 +100,10 @@
         "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
+        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_doing_list.xml",
+        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\src\\main\\res\\layout\\activity_doing_list.xml"
+    },
+    {
         "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
         "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_menu.xml"
     },
@@ -106,6 +114,10 @@
     {
         "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main_questodo.xml",
         "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\src\\main\\res\\layout\\content_main_questodo.xml"
+    },
+    {
+        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_done_list.xml",
+        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\src\\main\\res\\layout\\activity_done_list.xml"
     },
     {
         "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
@@ -178,6 +190,10 @@
     {
         "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_project.xml",
+        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\src\\main\\res\\layout\\activity_new_project.xml"
     },
     {
         "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",

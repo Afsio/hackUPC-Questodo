@@ -18,6 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainTodoList"/>
+        <activity android:name=".MainDoingList"/>
+        <activity android:name=".MainNewProject"/>
+        <activity android:name=".MainDoneList"/>
     </application>
 
 </manifest>

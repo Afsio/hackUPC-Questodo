@@ -24,6 +24,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.pecesteam.questodo.MainTodoList" />
+        <activity android:name="com.pecesteam.questodo.MainDoingList" />
+        <activity android:name="com.pecesteam.questodo.MainNewProject" />
+        <activity android:name="com.pecesteam.questodo.MainDoneList" />
     </application>
 
 </manifest>
