@@ -2,20 +2,33 @@ package com.pecesteam.questodo;
 
 import android.content.Intent;
 import android.os.Bundle;
-
+import java.io.IOException;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
 
-public class MainArchivements extends AppCompatActivity {
+import com.pecesteam.questodo.sourceClasses.ListAchivement;
+
+import java.io.IOException;
+
+public class MainAchivements extends AppCompatActivity {
+
+    private ListAchivement achi;
+    private ListView achiList;
+    private ArrayAdapter achiAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_archivements);
+        setContentView(R.layout.activity_achivements);
 
+        achiList = (ListView) findViewById(R.id.achiList);
+
+        achiAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,achi.getListArray());
 
         final Button button = (Button) findViewById(R.id.backButtonAr);
         button.setOnClickListener(new View.OnClickListener() {
@@ -24,6 +37,16 @@ public class MainArchivements extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        achi = new ListAchivement();
+
+        try{
+            achi.readFile();
+        }catch(IOException e){
+            System.out.println("El fitxer de logros no existeix");
+        }
+        //TODO:actualizar la lista gráfica
+
     }
 
     @Override
@@ -47,4 +70,34 @@ public class MainArchivements extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        try{
+            if(achi.setAchive()) achi.readFile();
+            //TODO:actualizar la lista gráfica
+        }catch(IOException e){
+            System.out.println("El fitxer de logros no existeix");
+        }
+
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
+
+
 }

@@ -20,7 +20,7 @@ public class MainProfile extends AppCompatActivity {
         final Button button = (Button) findViewById(R.id.archiButtonPr);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent i = new Intent(v.getContext(), MainArchivements.class);
+                Intent i = new Intent(v.getContext(), MainAchivements.class);
                 startActivity(i);
             }
         });

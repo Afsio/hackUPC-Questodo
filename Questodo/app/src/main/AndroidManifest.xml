@@ -23,7 +23,7 @@
         <activity android:name=".MainNewProject"/>
         <activity android:name=".MainDoneList"/>
         <activity android:name=".MainProfile"/>
-        <activity android:name=".MainArchivements"/>
+        <activity android:name=".MainAchivements"/>
     </application>
 
 </manifest>
