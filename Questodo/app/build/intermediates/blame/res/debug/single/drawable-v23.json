@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
-        "source": "C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-v23\\abc_control_background_material.xml"
+        "merged": "/home/carlos/Escritorio/HackUPC/hackUPC-Questodo/Questodo/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
+        "source": "/home/carlos/Escritorio/HackUPC/hackUPC-Questodo/Questodo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-v23/abc_control_background_material.xml"
+    },
+    {
+        "merged": "/home/carlos/Escritorio/HackUPC/hackUPC-Questodo/Questodo/C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "/home/carlos/Escritorio/HackUPC/hackUPC-Questodo/Questodo/C:\\hackUPC_2016\\hackUPC-Questodo\\Questodo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-v23\\abc_control_background_material.xml"
     }
 ]
