@@ -27,7 +27,7 @@ public class MainTodoList extends AppCompatActivity {
 
         String project;
 
-        //TODO:llegir les consultes
+        //TODO:llegir les consultes i el nom de projecte
         //ArrayList of To Do tasks
 
         project = "banana";
@@ -52,6 +52,7 @@ public class MainTodoList extends AppCompatActivity {
             mListView.setAdapter(mAdapter);
         }
 
+        //TODO:POPUP DE CONFIRMACIÓ
         final Button button = (Button) findViewById(R.id.backButtonTDL);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {

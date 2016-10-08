@@ -25,18 +25,15 @@ public class Profile {
     	this.name = null;
     	this.level = 0;
     	this.ncomplete = 0;
-    	this.alias = null;
     }
     
     public Profile(String name, String alias, int level,int ncomplete){
     	this.name = name;
-    	this.alias = alias;
     	this.level = level;
     	this.ncomplete = ncomplete;
     	
     }
     public int getNcomplete() {return ncomplete;}
-	public String getAlias() {return alias;}
 	public String getName() {return name;}
 	public int getLevel() {return level;}
 	private Profile p1;

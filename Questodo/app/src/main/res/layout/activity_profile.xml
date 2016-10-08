@@ -204,7 +204,7 @@
                     android:layout_margin="10sp"
                     android:id="@+id/archiButtonPr"
                     android:layout_height="match_parent"
-                    android:background="@mipmap/cup"/>
+                    android:background="@mipmap/achivement"/>
 
             </LinearLayout>
 

@@ -8,7 +8,7 @@
 
     <TextView
         android:text="null"
-        android:id="@+id/projectName"
+        android:id="@+id/projectNameDngL"
         android:textSize="50dp"
         android:textColor="#502d16"
         android:textStyle="italic|bold"
@@ -50,7 +50,7 @@
         android:layout_marginLeft="10sp"
         android:layout_marginRight="10sp"
         android:background="@color/light2"
-        android:id="@+id/listView"
+        android:id="@+id/doingListList"
         android:layout_gravity="center_horizontal"
         android:layout_weight="18" />
 

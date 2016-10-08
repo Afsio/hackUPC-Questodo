@@ -7,15 +7,52 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
+import android.widget.TextView;
+
+import com.pecesteam.questodo.sourceClasses.Tasks;
+
+import java.util.ArrayList;
 
 public class MainDoingList extends AppCompatActivity {
+
+    private ArrayAdapter mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_doing_list);
 
+        String project;
+
+        //TODO:llegir les consultes i el nom de projecte
+        //ArrayList of To Do tasks
+
+        project = "banana";
+
+        TextView window = (TextView) findViewById(R.id.projectNameDngL);
+        window.setText(project);
+
+        ArrayList<Tasks> tasks = new ArrayList<>();
+        Tasks banana = new Tasks("Sopar", "Menjar", "Hi ha pizza per sopar");
+        tasks.add(banana);
+        banana = new Tasks("HackUPC", "Morir", "Guanyarem la HackUPC BITCHES");
+        tasks.add(banana);
+        String[] tdTask = new String[tasks.size()];
+        for(int i = 0; i < tasks.size(); i++){
+            tdTask[i] = tasks.get(i).getName() + ": " + tasks.get(i).getDescription() + ". Type: " + tasks.get(i).getType();
+        }
+
+        final ListView mListView = (ListView) findViewById(R.id.doingListList);
+        mAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1,tdTask);
+
+        if(mListView != null){
+            mListView.setAdapter(mAdapter);
+        }
+
+        //TODO:POPUP DE CONFIRMACIÓ
 
         final Button button = (Button) findViewById(R.id.todoListDngL);
         button.setOnClickListener(new View.OnClickListener() {

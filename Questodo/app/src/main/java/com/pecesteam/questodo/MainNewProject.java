@@ -8,6 +8,9 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.EditText;
+
+import com.pecesteam.questodo.sourceClasses.Tasks;
 
 public class MainNewProject extends AppCompatActivity {
 
@@ -20,6 +23,11 @@ public class MainNewProject extends AppCompatActivity {
         final Button button = (Button) findViewById(R.id.createProject);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                EditText name = (EditText) findViewById(R.id.editNameProj);
+                EditText type = (EditText) findViewById(R.id.editTypeProj);
+                EditText desc = (EditText) findViewById(R.id.editDescProj);
+                Tasks newT = new Tasks(name.getText().toString(), type.getText().toString(), desc.getText().toString());
+                //TODO: escriure a memoria
                 Intent i = new Intent(v.getContext(), MainTodoList.class);
                 startActivity(i);
             }

@@ -26,7 +26,7 @@
         android:inputType="textPersonName"
         android:text="Project Name"
         android:ems="10"
-        android:id="@+id/editName"
+        android:id="@+id/editNameProj"
         android:layout_gravity="center_horizontal"
         android:layout_weight="4"
         android:allowUndo="true"
@@ -42,7 +42,7 @@
         android:inputType="textPersonName"
         android:text="Project Type"
         android:ems="10"
-        android:id="@+id/editType"
+        android:id="@+id/editTypeProj"
         android:layout_gravity="center_horizontal"
         android:layout_weight="4" />
 
@@ -61,7 +61,7 @@
         android:layout_weight="14"
         android:text="Description"
         android:ems="10"
-        android:id="@+id/description"
+        android:id="@+id/editDescProj"
         android:layout_gravity="center_horizontal" />
 
     <Space
