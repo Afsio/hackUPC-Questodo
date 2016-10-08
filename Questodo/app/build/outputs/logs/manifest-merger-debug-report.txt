@@ -70,10 +70,10 @@ activity#com.pecesteam.questodo.MainProfile
 ADDED from C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\src\main\AndroidManifest.xml:25:9-48
 	android:name
 		ADDED from C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\src\main\AndroidManifest.xml:25:19-46
-activity#com.pecesteam.questodo.MainArchivements
-ADDED from C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\src\main\AndroidManifest.xml:26:9-53
+activity#com.pecesteam.questodo.MainAchivements
+ADDED from C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\src\main\AndroidManifest.xml:26:9-52
 	android:name
-		ADDED from C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\src\main\AndroidManifest.xml:26:19-51
+		ADDED from C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\src\main\AndroidManifest.xml:26:19-50
 uses-sdk
 INJECTED from C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.1.1] C:\hackUPC_2016\hackUPC-Questodo\Questodo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43

@@ -29,7 +29,7 @@
         <activity android:name="com.pecesteam.questodo.MainNewProject" />
         <activity android:name="com.pecesteam.questodo.MainDoneList" />
         <activity android:name="com.pecesteam.questodo.MainProfile" />
-        <activity android:name="com.pecesteam.questodo.MainArchivements" />
+        <activity android:name="com.pecesteam.questodo.MainAchivements" />
     </application>
 
 </manifest>

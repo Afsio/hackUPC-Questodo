@@ -26,7 +26,7 @@ public class ListAchivement {
 	 */
 	public ListAchivement(){
 		list = new Achivement[MAX];
-		for(int i = 0; i <= MAX; i++){
+		for(int i = 0; i < MAX; i++){
 			list[i] = null;
 		}
 	}
@@ -79,11 +79,7 @@ public class ListAchivement {
 	}
 
 	public Achivement[] getListArray(){
-		Achivement[] copy = new Achivement[MAX];
-		for(int i = 0; i < MAX; i++){
-			copy[i] = list[i];
-		}
-		return copy;
+		return list;
 	}
 	
 

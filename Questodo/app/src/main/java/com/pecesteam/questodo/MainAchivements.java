@@ -4,39 +4,28 @@ import android.content.Intent;
 import android.os.Bundle;
 import java.io.IOException;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.ArrayAdapter;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 
+import com.pecesteam.questodo.sourceClasses.Achivement;
+import com.pecesteam.questodo.sourceClasses.CustomAchiAdapter;
 import com.pecesteam.questodo.sourceClasses.ListAchivement;
-
-import java.io.IOException;
 
 public class MainAchivements extends AppCompatActivity {
 
     private ListAchivement achi;
     private ListView achiList;
-    private ArrayAdapter achiAdapter;
+    private CustomAchiAdapter achiAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_achivements);
-
-        achiList = (ListView) findViewById(R.id.achiList);
-
-        achiAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,achi.getListArray());
-
-        final Button button = (Button) findViewById(R.id.backButtonAr);
-        button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Intent i = new Intent(v.getContext(), MainProfile.class);
-                startActivity(i);
-            }
-        });
 
         achi = new ListAchivement();
 
@@ -44,9 +33,43 @@ public class MainAchivements extends AppCompatActivity {
             achi.readFile();
         }catch(IOException e){
             System.out.println("El fitxer de logros no existeix");
+            Log.e("myApp", "EXCEPTION");
+            return;
         }
-        //TODO:actualizar la lista gráfica
 
+        //Data to initialize the ListView
+        int max = achi.getListArray().length;
+        Achivement[] list;
+        list = achi.getListArray();
+        Integer[] img = new Integer[max];
+        String[] desc = new String[max];
+        for(int i = 0; i < max;i++) {
+            Log.w("myApp", list[i].toString());
+            img[i] = list[i].getImg();
+            desc[i] = list[i].getName() + ":" + list[i].getDescription();
+        }
+
+        /*achiList = (ListView) findViewById(R.id.achiList);
+        achiAdapter = new CustomAchiAdapter(this,desc,img);
+        if(achiList != null){
+            achiList.setAdapter(achiAdapter);
+        }
+
+        achiList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
+                Intent i = new Intent(view.getContext(), MainTodoList.class);
+                startActivity(i);
+            }
+        });
+
+        /*final Button button = (Button) findViewById(R.id.backButtonAr);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent i = new Intent(v.getContext(), MainProfile.class);
+                startActivity(i);
+            }
+        });*/
     }
 
     @Override
@@ -71,7 +94,7 @@ public class MainAchivements extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    @Override
+    /*@Override
     protected void onResume() {
         super.onResume();
 
@@ -97,7 +120,7 @@ public class MainAchivements extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-    }
+    }*/
 
 
 }
